@@ -1,9 +1,7 @@
 // see SignupForm.js for comments
-import React, { useState } from 'react';
-import { Form, Button, Alert } from 'react-bootstrap';
-
-
-import Auth from '../utils/auth';
+import React, { useState } from "react";
+import { Form, Button, Alert } from "react-bootstrap";
+import Auth from "../utils/auth";
 import { LOGIN_USER } from "../utils/mutations";
 import { useMutation } from "@apollo/client";
 
@@ -22,7 +20,6 @@ const LoginForm = () => {
   const handleFormSubmit = async (event) => {
     event.preventDefault();
 
-    // check if form has everything (as per react-bootstrap docs)
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
@@ -69,7 +66,7 @@ const LoginForm = () => {
             required
           />
           <Form.Control.Feedback type="invalid">
-            Email is required!
+            Email required!
           </Form.Control.Feedback>
         </Form.Group>
 
@@ -84,7 +81,7 @@ const LoginForm = () => {
             required
           />
           <Form.Control.Feedback type="invalid">
-            Password is required!
+            Password required!
           </Form.Control.Feedback>
         </Form.Group>
         <Button
@@ -100,4 +97,3 @@ const LoginForm = () => {
 };
 
 export default LoginForm;
-
