@@ -12,7 +12,15 @@
 - [Questions, Comments, Suggestions](#questions-comments-suggestions)
 
 ## Features
-
+ - Mongoose
+ - Express
+ - React
+ - GraphQL
+ - Apollo Server Express
+ - Bcrypt
+ - JWT-Decode
+ - JSON Web Tokens
+ - Bootstrap
 
 ## Deployed Application
 [The deployed application can be found at this address.](https://sheltered-refuge-61206.herokuapp.com/)
