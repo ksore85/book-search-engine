@@ -1,7 +1,7 @@
 # Book Search Engine
 
 ## Description
-
+A book search engine application, using GraphQL and React, that allows users to create an account, login and add books to, or delete books from their customized to-read list. 
 
 ## Table of Contents
 - [Features](#features)
